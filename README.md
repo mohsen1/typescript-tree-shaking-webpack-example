@@ -1,4 +1,3 @@
-# Webpack sharable JavaScript components with assets
+# Example: TypeScript tree-shaking with Webpack
 
-This is an example of sharable JavaScript components that have static assets like images.
-Emitted code in `dist` folder does not include images and instead it's requiring images using `require` so user of this component can use Webpack to emit those files.
+the `exports.ts` file exports two variable but only one is used. The unused variable is not included in bundle.
